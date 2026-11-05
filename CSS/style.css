@@ -1205,10 +1205,6 @@ body:has(#experiencias) #orcamento {
 /*Essa parte foi feita pelo bruno*/
 
 
-
-
-
-
 /*Essa parte do CSS foi feito pelo Vinicius - modo claro e escuro*/
 
 #botao-tema {
@@ -1325,13 +1321,13 @@ html:not(.modo-escuro) #indexmain #map {
     border-color: #cfd8cf;
 }
 
-/* Demais páginas no modo escuro */
+/* Modo escuro em todas as páginas */
 
 html.modo-escuro {
     color-scheme: dark;
 }
 
-html.modo-escuro body:not(:has(#indexmain)) {
+html.modo-escuro body {
     background-color: #17201c !important;
     background-blend-mode: multiply;
     color: #e6ece8;
