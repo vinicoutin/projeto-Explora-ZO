@@ -1,0 +1,1453 @@
+/*Essa parte do CSS foi feito pelo Brian*/
+* {    
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../imagens/plano-de-fundo.png");
+    background-size: cover; background-position: center; background-repeat: no-repeat; background-attachment: fixed;
+}
+main {
+    background-color: white;
+    padding: 20px;
+    flex-grow: 1;
+    text-align: center;
+    margin: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: url("../imagens/fundocima.png"), url("../imagens/fundobaixo.png");
+    background-position: top left, bottom right; background-size: 800px auto, 800px auto; background-repeat: no-repeat;
+    
+}
+#esqueceumain, #loginmain, #maincriar {
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto; margin-bottom: 70px; margin-top: 70px;
+}
+#sobremain, #indexmain {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header {
+    display: inline-block;
+    background-color: #073127;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+}
+header img {
+    left: 0%;
+    top:  0%;
+    position: absolute;
+}
+header h1 {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 26px;
+    padding-bottom: 36px;
+    margin-left: 90px; margin-top: 12px;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+header h1 span {color: #69d68a; transition: color 0.3s ease;}
+header h1 span:hover {color: #a5f3b8;}
+    
+a#login {
+    position: absolute;
+    right: 20px;
+    top: 41px;
+    color: white;
+    text-decoration: none;
+    gap: 7px;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+nav {
+    position: absolute;
+    text-align: left;
+    padding: 40px;
+    margin-left: 300px;
+    word-spacing: 15px;
+    font-size: 22px;
+    display: flex;
+    gap: 30px;
+}
+nav a {
+    position: relative;
+    color: white;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav a:hover, #login:hover {
+    color: #a5f3b8;
+}
+footer {
+    text-align: center;
+    color: rgb(24, 153, 7);
+    padding: 30px;
+    background-color: #073127;;
+    letter-spacing: 1px;
+    width: 100%;
+}
+section#historia {
+    background-color: #F7F9F5;
+    padding: 100px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+
+    font-size: 17px;
+}
+section#historia img {
+    width: 80% auto;
+    height: 80% auto;
+    border-radius: 10px;
+}
+.valoreslado {
+    margin-left: 35px;
+}
+section#proposito, section#diferenciais {
+    text-align: left;
+    padding: 100px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #F7F9F5;
+    font-size: 17px;
+}
+section#proposito img, section#diferenciais img {
+    width: 100%;
+}
+section#contato {
+    text-align: center;
+    padding: 100px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #F7F9F5;
+    font-size: 17px;
+}
+section#destinos {
+    text-align: center;
+    font-size: 17px;
+}
+.lista {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 17px;
+
+}
+.destinos {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 1%;
+}
+.destinos img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.centro {
+    text-align: center;
+}
+.lado {
+    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+}
+input#nome, input#email, input#senha, input#telefone, input#nascimento, input#data, textarea#mensagem, select#destino {
+    width: 20%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #25924B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.botaosemlinha {
+    text-decoration: none;
+    color: white;
+}
+button:hover {
+    background-color: #37db60;
+    color: white;
+}
+footer hr {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+#femail {
+    display: inline-block;
+    margin: 10px;
+    padding-inline-end: 22px;
+    border-right: rgb(114, 114, 114) 1px solid;
+}
+#ftelefone {
+    display: inline-block;
+    margin: 10px;
+}
+i {
+    margin-right: 1px;
+}
+nav a i, .login-btn i {
+    font-size: 18px;
+}
+button i {
+    margin-right: 10px;
+}
+footer i {
+    color: #66d17a;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.ativo, #login.ativo {
+    color: #8fe2a1;
+}
+a.ativo::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #8fe2a1;
+    border-radius: 3px;
+}
+#femail, #ftelefone {
+    display: inline-block;
+    margin: 10px;
+    padding-inline-end: 22px;
+}
+.inputcampo {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+/*Essa parte do CSS foi feito pelo Brian*/
+
+
+
+
+
+
+/*Essa parte do CSS foi feito pelo Bruno*/
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px;
+    gap: 5px;
+    width: 500px;
+}
+
+.galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.galeria img:first-child {
+    grid-row: 1 / 3;
+}
+
+#campo-busca {
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    height: 35px;
+    margin-top: 75px;
+    border-radius: 12px;
+    padding-left: 20px;
+}
+
+#cliches{
+    margin: 10;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#destaques{
+    color: rgb(24, 120, 50);
+    font-size: 40px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+#mapa {
+    position: relative;
+    top: 20px;
+}
+
+.fotobaixo {
+    width: 30%;
+    border-radius: 15px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 65px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+#mapa {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#bloco1 img {
+    margin: 15px;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#bloco1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 150px;
+    gap: 5px;
+    width: 500px;
+}
+
+#bloco1 img:first-child {
+    grid-row: 1 / 3;
+}
+/*Essa parte do CSS foi feito pelo Bruno*/
+
+
+
+
+
+
+/*Essa parte do CSS foi feito pelo Vinicius*/
+body:has(#experiencias) main {
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    margin: 25px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+body:has(#experiencias) main h2 {
+    color: rgb(24, 120, 50);
+}
+
+.introducao {
+    max-width: 750px;
+    margin: 0 auto 24px;
+    color: #606860;
+    line-height: 1.6;
+}
+
+body:has(#experiencias) #destinos {
+    margin-bottom: 35px;
+}
+
+.lista-destinos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 25px;
+}
+
+body:has(#experiencias) .destinos {
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+}
+
+body:has(#experiencias) .destinos img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+body:has(#experiencias) .destinos figcaption {
+    padding: 10px 5px;
+    font-weight: bold;
+}
+
+#experiencias {
+    padding: 30px 22px;
+    margin: 0 0 30px;
+    text-align: center;
+    background-color: #f7f9f5;
+    border-radius: 12px;
+}
+
+#experiencias h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 28px;
+}
+
+.lista-servicos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+.servico {
+    padding: 22px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #dce7dc;
+    border-radius: 10px;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.servico:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.08);
+}
+
+.servico h3 {
+    margin-top: 0;
+    color: rgb(24, 120, 50);
+    font-size: 20px;
+}
+
+.servico p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.servico span {
+    display: block;
+    margin-top: 14px;
+    color: rgb(24, 120, 50);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.aviso-servicos {
+    color: #666;
+    font-size: 13px;
+}
+
+/* Formulário */
+body:has(#experiencias) #orcamento {
+    padding: 30px 22px;
+    margin-bottom: 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#orcamento form {
+    width: 100%;
+    max-width: 760px;
+    margin: 25px auto 0;
+    text-align: left;
+}
+
+#orcamento .campo {
+    margin-bottom: 18px;
+}
+
+#orcamento .campo > label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+#orcamento .campo input,
+#orcamento .campo select,
+#orcamento .campo textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #cfd8cf;
+    border-radius: 7px;
+    background-color: #fff;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+#orcamento .campo input:focus,
+#orcamento .campo select:focus,
+#orcamento .campo textarea:focus {
+    outline: 2px solid #9cc8a2;
+    border-color: rgb(24, 120, 50);
+}
+
+#orcamento .campo textarea {
+    resize: vertical;
+}
+
+/* Opções de pessoas e serviços */
+#orcamento fieldset {
+    margin: 20px 0;
+    padding: 15px 18px;
+    border: 1px solid #d5dfd4;
+    border-radius: 8px;
+}
+
+#orcamento legend {
+    padding: 0 6px;
+    color: rgb(24, 120, 50);
+    font-weight: bold;
+}
+
+#orcamento .opcao {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin: 10px 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#orcamento .opcao input {
+    width: auto;
+    margin: 0;
+    accent-color: rgb(24, 120, 50);
+}
+
+/* Botão */
+#orcamento button {
+    display: block;
+    width: 100%;
+    padding: 14px 20px;
+    margin-top: 20px;
+    background-color: rgb(24, 120, 50);
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#orcamento button:hover {
+    background-color: rgb(17, 95, 39);
+}
+
+.nota-formulario {
+    color: #777;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 800px) {
+    body:has(#experiencias) main {
+        width: calc(100% - 24px);
+        padding: 18px;
+    }
+
+    .lista-destinos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    body:has(#experiencias) main {
+        width: 100%;
+        margin: 12px auto;
+        padding: 12px;
+    }
+
+    .lista-destinos,
+    .lista-servicos {
+        grid-template-columns: 1fr;
+    }
+
+    #experiencias,
+    body:has(#experiencias) #orcamento {
+        padding: 22px 14px;
+    }
+
+    .servico {
+        padding: 18px;
+    }
+}
+
+/* Mensagens de erro do formulário (JavaScript) */
+.erro {
+    display: block;
+    margin-top: 6px;
+    color: #b3261e;
+    font-size: 13px;
+}
+
+/* Resumo do pedido (JavaScript) */
+#resumo {
+    max-width: 760px;
+    margin: 25px auto 0;
+    padding: 22px;
+    text-align: left;
+    background-color: #f7f9f5;
+    border: 1px solid #d5dfd4;
+    border-radius: 10px;
+}
+
+#resumo h3 {
+    margin-top: 0;
+    color: rgb(24, 120, 50);
+}
+
+#resumo dt {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#resumo dd {
+    margin: 2px 0 0;
+    white-space: pre-line;
+}
+
+#orcamento #resumo button.secundario {
+    background-color: #fff;
+    color: rgb(24, 120, 50);
+    border: 2px solid rgb(24, 120, 50);
+}
+
+/* Cards de serviços e fotos de destinos clicáveis (JavaScript) */
+#experiencias .servico[role="button"],
+#destinos .destinos[role="button"] {
+    cursor: pointer;
+}
+
+#experiencias .servico.selecionado {
+    background-color: #eef7ef;
+    border-color: rgb(24, 120, 50);
+    box-shadow: 0 0 0 2px rgb(24, 120, 50);
+}
+
+#experiencias .servico:focus-visible {
+    outline: 2px solid #9cc8a2;
+    outline-offset: 2px;
+}
+
+#destinos .destinos:focus-visible {
+    outline: 2px solid #9cc8a2;
+    outline-offset: 4px;
+    border-radius: 10px;
+}
+
+/* Janelas (modais) de serviços e destinos (JavaScript) */
+.modal-fundo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.modal-fundo[hidden] {
+    display: none !important;
+}
+
+.modal-caixa {
+    position: relative;
+    width: 100%;
+    max-width: 480px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 28px 24px 24px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.modal-caixa h3 {
+    margin: 0 0 10px;
+    padding-right: 30px;
+    color: rgb(24, 120, 50);
+    font-size: 22px;
+}
+
+.modal-caixa p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.modal-caixa ul {
+    margin: 14px 0 20px;
+    padding-left: 20px;
+    color: #333;
+    line-height: 1.8;
+}
+
+.modal-caixa img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin: 12px 0 16px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#modal-adicionar,
+#destino-escolher {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    background-color: rgb(24, 120, 50);
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#modal-adicionar:hover,
+#destino-escolher:hover {
+    background-color: rgb(17, 95, 39);
+}
+
+.botao-link {
+    display: block;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    text-align: center;
+    color: rgb(24, 120, 50);
+    border: 2px solid rgb(24, 120, 50);
+    border-radius: 7px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botao-link:hover {
+    background-color: #eef7ef;
+}
+
+.modal-fechar {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    padding: 0 8px;
+    background: none;
+    color: #666;
+    border: none;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.modal-fechar:hover {
+    background: none;
+    color: #000;
+}
+/*Essa parte do CSS foi feito pelo Vinicius*/
+
+
+
+
+
+
+/*Essa parte do CSS foi feito pelo Bruno - página inicial*/
+
+
+#indexmain {
+    width: 90%;
+    max-width: 1500px;
+
+    margin: 25px auto;
+    padding: 35px;
+
+    background-color: #202e29;
+    border-radius: 15px;
+    color: white;
+
+    box-sizing: border-box;
+}
+
+/* APRESENTAÇÃO */
+
+#indexmain #topo-home {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 35px;
+}
+
+#indexmain #conteudo-home {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+#indexmain h1 {
+    font-size: 36px;
+    line-height: 1.15;
+    margin: 0 0 15px;
+}
+
+#indexmain h1 span {
+    color: #70db91;
+}
+
+#indexmain .descricao-home {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #dddddd;
+    margin: 0 0 20px;
+}
+
+/* BOTÕES */
+
+#indexmain .botoes-home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+#indexmain .botao-principal,
+#indexmain .botao-secundario {
+    display: inline-block;
+    padding: 12px 24px;
+
+    border-radius: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+
+    transition: 0.2s;
+}
+
+#indexmain .botao-principal {
+    background-color: #70db91;
+    color: #103b2b;
+}
+
+#indexmain .botao-secundario {
+    border: 1px solid #70db91;
+    color: white;
+}
+
+#indexmain .botao-principal:hover {
+    background-color: #91f1ae;
+}
+
+#indexmain .botao-secundario:hover {
+    background-color: #315344;
+}
+
+/* TÍTULOS DAS SEÇÕES */
+
+#indexmain #destinos h2,
+#indexmain #quem-somos h2,
+#indexmain #porque-contratar h2,
+#indexmain #outros-destinos h2,
+#indexmain #duvidas-frequentes h2 {
+    font-size: 23px;
+    margin: 0 0 15px;
+
+    border-left: 5px solid #70db91;
+    padding-left: 10px;
+}
+
+/* DESTINOS EM DESTAQUE */
+
+#indexmain .lista-destinos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+}
+
+/* CARDS DE DESTINOS */
+
+#indexmain .card-destino,
+#indexmain .card-outro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+
+    min-width: 0;
+    padding: 18px;
+
+    background-color: #293d35;
+    border: 1px solid #385247;
+    border-radius: 18px;
+
+    transition: 0.2s;
+}
+
+#indexmain .card-destino:hover,
+#indexmain .card-outro:hover {
+    transform: translateY(-5px);
+    border-color: #70db91;
+    background-color: #30493e;
+}
+
+#indexmain .card-destino h3,
+#indexmain .card-outro h3 {
+    font-size: 17px;
+    margin: 0;
+}
+
+#indexmain .card-destino p,
+#indexmain .card-outro p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #dddddd;
+    margin: 0;
+}
+
+#indexmain .card-destino span,
+#indexmain .card-outro span {
+    margin-top: auto;
+    padding: 5px 10px;
+
+    border: 1px solid #70db91;
+    border-radius: 20px;
+
+    color: #85e8a1;
+    font-size: 12px;
+}
+
+/* MAPA */
+
+#indexmain #map {
+    width: 100%;
+    min-height: 400px;
+
+    background-color: #283b34;
+    border: 1px solid #668577;
+    border-radius: 20px;
+
+    box-sizing: border-box;
+}
+
+/* QUEM SOMOS NÓS */
+
+#indexmain #quem-somos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+
+    margin-top: 45px;
+    padding: 30px;
+
+    background-color: #293d35;
+    border: 1px solid #385247;
+    border-radius: 18px;
+}
+
+#indexmain .texto-quem-somos {
+    max-width: 750px;
+}
+
+#indexmain #quem-somos p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #dddddd;
+    margin: 0;
+}
+
+#indexmain #quem-somos .botao-principal {
+    flex-shrink: 0;
+}
+
+/* POR QUE NOS CONTRATAR */
+
+#indexmain #porque-contratar {
+    margin-top: 45px;
+}
+
+#indexmain .descricao-vantagens,
+#indexmain .descricao-destinos,
+#indexmain .descricao-duvidas {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #dddddd;
+    margin: 0 0 25px;
+}
+
+/* GRID DAS VANTAGENS */
+
+#indexmain .grid-vantagens {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+
+/* CARDS DAS VANTAGENS */
+
+#indexmain .card-vantagem {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    min-width: 0;
+    padding: 22px;
+
+    background-color: #293d35;
+    border: 1px solid #385247;
+    border-radius: 18px;
+
+    transition: 0.2s;
+}
+
+#indexmain .card-vantagem:hover {
+    transform: translateY(-5px);
+    border-color: #70db91;
+    background-color: #30493e;
+}
+
+#indexmain .card-vantagem i {
+    font-size: 27px;
+    color: #70db91;
+    margin-bottom: 5px;
+}
+
+#indexmain .card-vantagem h3 {
+    font-size: 17px;
+    margin: 0;
+}
+
+#indexmain .card-vantagem p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #dddddd;
+    margin: 0;
+}
+
+/* OUTROS DESTINOS */
+
+#indexmain #outros-destinos {
+    margin-top: 45px;
+}
+
+#indexmain .grid-destinos {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+
+#indexmain .card-outro {
+    min-height: 160px;
+    padding: 22px;
+}
+
+/* DÚVIDAS FREQUENTES */
+
+#indexmain #duvidas-frequentes {
+    margin-top: 45px;
+}
+
+#indexmain .lista-duvidas {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* CAIXAS DAS PERGUNTAS */
+
+#indexmain .duvida {
+    background-color: #293d35;
+    border: 1px solid #385247;
+    border-radius: 15px;
+
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#indexmain .duvida:hover {
+    border-color: #70db91;
+}
+
+#indexmain .duvida[open] {
+    border-color: #70db91;
+    background-color: #30493e;
+}
+
+/* TÍTULOS DAS PERGUNTAS */
+
+#indexmain .duvida summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    padding: 20px;
+
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    list-style: none;
+}
+
+#indexmain .duvida summary::-webkit-details-marker {
+    display: none;
+}
+
+/* ÍCONE DE ABRIR E FECHAR */
+
+#indexmain .duvida summary::after {
+    content: "+";
+
+    font-size: 25px;
+    font-weight: normal;
+    color: #70db91;
+}
+
+#indexmain .duvida[open] summary::after {
+    content: "−";
+}
+
+/* RESPOSTAS */
+
+#indexmain .duvida p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #dddddd;
+
+    margin: 0;
+    padding: 0 20px 20px;
+}
+
+/* RESPONSIVIDADE - TABLETS */
+
+@media (max-width: 1100px) {
+
+    #indexmain #topo-home {
+        grid-template-columns: 1fr;
+    }
+
+    #indexmain #map {
+        min-height: 350px;
+    }
+
+    #indexmain .grid-vantagens,
+    #indexmain .grid-destinos {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+/* RESPONSIVIDADE - CELULARES */
+
+@media (max-width: 650px) {
+
+    #indexmain {
+        width: 95%;
+        padding: 20px;
+    }
+
+    #indexmain h1 {
+        font-size: 28px;
+    }
+
+    #indexmain .lista-destinos,
+    #indexmain .grid-vantagens,
+    #indexmain .grid-destinos {
+        grid-template-columns: 1fr;
+    }
+
+    #indexmain #quem-somos {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 22px;
+    }
+
+    #indexmain #map {
+        min-height: 300px;
+    }
+
+    #indexmain .duvida summary {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    #indexmain .duvida p {
+        font-size: 14px;
+        padding: 0 15px 15px;
+    }
+
+}
+/*Essa parte foi feita pelo bruno*/
+
+
+
+
+
+
+/*Essa parte do CSS foi feito pelo Vinicius - modo claro e escuro*/
+
+#botao-tema {
+    position: absolute;
+    top: 33px;
+    right: 130px;
+    z-index: 900;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #69d68a;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#botao-tema:hover {
+    background-color: rgba(105, 214, 138, 0.2);
+}
+
+#botao-tema.flutuante {
+    position: fixed;
+    top: auto;
+    right: 18px;
+    bottom: 18px;
+    background-color: #073127;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Home no modo claro (a home do Bruno é escura por padrão) */
+
+html:not(.modo-escuro) #indexmain {
+    background-color: #fff;
+    color: #1f2d27;
+}
+
+html:not(.modo-escuro) #indexmain h1 span {
+    color: rgb(24, 120, 50);
+}
+
+html:not(.modo-escuro) #indexmain #destinos h2,
+html:not(.modo-escuro) #indexmain #quem-somos h2,
+html:not(.modo-escuro) #indexmain #porque-contratar h2,
+html:not(.modo-escuro) #indexmain #outros-destinos h2,
+html:not(.modo-escuro) #indexmain #duvidas-frequentes h2 {
+    color: rgb(24, 120, 50);
+    border-left-color: rgb(24, 120, 50);
+}
+
+html:not(.modo-escuro) #indexmain .descricao-home,
+html:not(.modo-escuro) #indexmain .descricao-vantagens,
+html:not(.modo-escuro) #indexmain .descricao-destinos,
+html:not(.modo-escuro) #indexmain .descricao-duvidas,
+html:not(.modo-escuro) #indexmain .card-destino p,
+html:not(.modo-escuro) #indexmain .card-outro p,
+html:not(.modo-escuro) #indexmain .card-vantagem p,
+html:not(.modo-escuro) #indexmain #quem-somos p,
+html:not(.modo-escuro) #indexmain .duvida p {
+    color: #555;
+}
+
+html:not(.modo-escuro) #indexmain .botao-principal {
+    background-color: rgb(24, 120, 50);
+    color: #fff;
+}
+
+html:not(.modo-escuro) #indexmain .botao-principal:hover {
+    background-color: rgb(17, 95, 39);
+}
+
+html:not(.modo-escuro) #indexmain .botao-secundario {
+    border-color: rgb(24, 120, 50);
+    color: rgb(24, 120, 50);
+}
+
+html:not(.modo-escuro) #indexmain .botao-secundario:hover {
+    background-color: #eef7ef;
+}
+
+html:not(.modo-escuro) #indexmain .card-destino,
+html:not(.modo-escuro) #indexmain .card-outro,
+html:not(.modo-escuro) #indexmain .card-vantagem,
+html:not(.modo-escuro) #indexmain #quem-somos,
+html:not(.modo-escuro) #indexmain .duvida {
+    background-color: #f7f9f5;
+    border-color: #dce7dc;
+}
+
+html:not(.modo-escuro) #indexmain .card-destino:hover,
+html:not(.modo-escuro) #indexmain .card-outro:hover,
+html:not(.modo-escuro) #indexmain .card-vantagem:hover,
+html:not(.modo-escuro) #indexmain .duvida:hover,
+html:not(.modo-escuro) #indexmain .duvida[open] {
+    background-color: #eef7ef;
+    border-color: rgb(24, 120, 50);
+}
+
+html:not(.modo-escuro) #indexmain .card-destino span,
+html:not(.modo-escuro) #indexmain .card-outro span {
+    border-color: rgb(24, 120, 50);
+    color: rgb(24, 120, 50);
+}
+
+html:not(.modo-escuro) #indexmain .card-vantagem i,
+html:not(.modo-escuro) #indexmain .duvida summary::after {
+    color: rgb(24, 120, 50);
+}
+
+html:not(.modo-escuro) #indexmain #map {
+    background-color: #eef2ee;
+    border-color: #cfd8cf;
+}
+
+/* Demais páginas no modo escuro */
+
+html.modo-escuro {
+    color-scheme: dark;
+}
+
+html.modo-escuro body:not(:has(#indexmain)) {
+    background-color: #17201c !important;
+    background-blend-mode: multiply;
+    color: #e6ece8;
+}
+
+html.modo-escuro main:not(#indexmain) {
+    background-color: #232d29 !important;
+    color: #e6ece8 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+html.modo-escuro #experiencias,
+html.modo-escuro #historia,
+html.modo-escuro #proposito,
+html.modo-escuro #diferenciais,
+html.modo-escuro #contato,
+html.modo-escuro #resumo {
+    background-color: #1c2521 !important;
+    border-color: #3a4a43 !important;
+}
+
+html.modo-escuro #orcamento,
+html.modo-escuro #principalcriar {
+    background-color: transparent !important;
+}
+
+html.modo-escuro main:not(#indexmain) h1,
+html.modo-escuro main:not(#indexmain) h2,
+html.modo-escuro main:not(#indexmain) h3,
+html.modo-escuro main:not(#indexmain) legend {
+    color: #6fd58c !important;
+}
+
+html.modo-escuro main:not(#indexmain) p,
+html.modo-escuro main:not(#indexmain) li,
+html.modo-escuro main:not(#indexmain) label,
+html.modo-escuro main:not(#indexmain) dd,
+html.modo-escuro main:not(#indexmain) dt,
+html.modo-escuro main:not(#indexmain) figcaption {
+    color: #d5dfd9 !important;
+}
+
+html.modo-escuro main:not(#indexmain) a:not(.botaosemlinha):not(.botao-link) {
+    color: #8fe2a1;
+}
+
+html.modo-escuro .servico {
+    background-color: #1c2521 !important;
+    border-color: #3a4a43 !important;
+}
+
+html.modo-escuro .servico.selecionado {
+    background-color: #1f3a2a !important;
+    border-color: #6fd58c !important;
+    box-shadow: 0 0 0 2px #6fd58c;
+}
+
+html.modo-escuro main:not(#indexmain) fieldset {
+    border-color: #3a4a43 !important;
+}
+
+html.modo-escuro main:not(#indexmain) hr {
+    border-color: #3a4a43;
+}
+
+html.modo-escuro main:not(#indexmain) input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
+html.modo-escuro main:not(#indexmain) textarea,
+html.modo-escuro main:not(#indexmain) select {
+    background-color: #1c2521 !important;
+    color: #e6ece8 !important;
+    border-color: #3a4a43 !important;
+}
+
+html.modo-escuro main:not(#indexmain) input::placeholder,
+html.modo-escuro main:not(#indexmain) textarea::placeholder {
+    color: #8a9a92;
+}
+
+html.modo-escuro .erro {
+    color: #ff8a80;
+}
+
+html.modo-escuro #orcamento #resumo button.secundario {
+    background-color: transparent;
+    color: #6fd58c;
+    border-color: #6fd58c;
+}
+
+html.modo-escuro .modal-caixa {
+    background-color: #232d29 !important;
+    color: #e6ece8;
+}
+
+html.modo-escuro .modal-caixa h3 {
+    color: #6fd58c !important;
+}
+
+html.modo-escuro .modal-caixa p,
+html.modo-escuro .modal-caixa li {
+    color: #d5dfd9 !important;
+}
+
+html.modo-escuro .modal-fechar {
+    color: #aab6af;
+}
+
+html.modo-escuro .modal-fechar:hover {
+    color: #fff;
+}
+
+html.modo-escuro .botao-link {
+    color: #6fd58c;
+    border-color: #6fd58c;
+}
+
+html.modo-escuro .botao-link:hover {
+    background-color: #1f3a2a;
+}
+/*Essa parte do CSS foi feito pelo Vinicius - modo claro e escuro*/

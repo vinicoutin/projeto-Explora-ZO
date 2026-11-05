@@ -1,0 +1,55 @@
+<!--Parte do Lucas-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <title>ExploraZO - Login</title>
+        <script src="JS/tema.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="imagens/explorazo.png" alt="logo do ExploraZo." width="120px">
+            <h1>Explora<span>ZO</span></h1>
+            <a href="login.html" id="login" class="ativo"><i class="fa-regular fa-user"></i> Login</a>
+        </header>
+        <nav>
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="orçamento.html"><i class="fa-regular fa-calendar"></i> Orçamento</a>
+            <a href="sobre.html"><i class="fa-solid fa-circle-info"></i> Sobre</a>
+        </nav>
+        <main id="loginmain">
+            <img src="imagens/montanha-icon.png" width="130px" height="130px" alt="montanha-icon">
+            <div>
+                <h3 style="color: rgb(24, 120, 50);">Entre na sua conta e aventure-se!</h3><br>
+
+                <form>
+                    <label for="email" style="color: #003A1C; font-weight: bold;">E-mail:</label><br>
+                    <input type="email" id="email"  class="inputcampo" placeholder="Digite seu e-mail" required><br><br>
+
+                    <label for="senha" style="color: #003A1C; font-weight: bold;">Senha:</label><br>
+                    <input type="password" id="senha" class="inputcampo" placeholder="Digite sua senha" required minlength="8" maxlength="8"><br><br>
+
+                    <button type="submit">Entrar</button><br><br>
+                </form><br>
+                <p class="esquecesenha">
+                    <button><i class="fa-solid fa-paper-plane"></i> <a href="recuperar.html" class="botaosemlinha">Esqueci minha senha</a></button><br><br><br>
+                </p>
+                <p class="cadastro">
+                    <span style="color: rgb(24, 120, 50);">Ainda não tem uma conta?</span><br><br>
+                    <button><a href="criarconta.html" class="botaosemlinha">Criar conta</a></button>
+                </p><br>
+                
+            </div>
+        </main>
+        <footer style="color: white;">
+            <p><h2>Nossos Canais de atendimento</h2>              
+            <p id="femail"><i class="fa-regular fa-envelope"></i> contatosexplorazo@gmail.com</p>
+            <p id="ftelefone"><i class="fa-solid fa-phone"></i> (21) 93454-2234</p>
+            <p><i class="fa-solid fa-location-dot"></i> Rua francisco de campos, 354, Campo Grande.</p><hr>
+            <p>&copy; 2026 ExploraZO. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
